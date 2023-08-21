@@ -1,0 +1,50 @@
+  827  mkdir checkpointRobertoVazquez
+  828  cd checkpointRobertoVazquez/
+  829  git init
+  830  git branch -m main
+  831  git remote add origin https://github.com/robervsa/checkpointRobertoVazquez.git
+  832  touch main.js  index.html
+  833  git status
+  834  git add .
+  835  git status
+  836  git commit -m "commit 01 Roberto Vazquez"
+  837  git push origin main
+  838  git branch feature
+  839  git checkout feature
+  840  mkdir Hardware
+  841  mkdir Software
+  842  mkdir SeguridadInformatica
+  843  ls
+  844  cd Hardware
+  845  touch resumen.txt
+  846  ls
+  847  cp resumen.txt ../Software/
+  848  cp resumen.txt ../SeguridadInformatica/
+  849  cd ..
+  850  ls -R
+  851  git push origin feature
+  852  git checkout main
+  853  ls
+  854  mv main.js resumenHardware.txt
+  855  mv index.html resumenSoftware.txt
+  856  ls
+  857  gedit resumenHardware.txt 
+  858  gedit resumenSoftware.txt 
+  859  git checkout feature
+  860  git status
+  861  git add Hardware/ SeguridadInformatica/ Software/
+  862  git status
+  863  git commit -m "commit 02 Roberto Vazquez"
+  864  git push origin feature
+  865  git checkout main
+  866  git status
+  867  git add .
+  868  git status
+  869  git commit -m "commit 03 Roberto Vazquez"
+  870  git push origin main
+  871  git checkout
+  872  git checkou main
+  873  git checkout main
+  874  touch comandos.txt
+  875  ls
+  876  history > comandos.txt 
